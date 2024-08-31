@@ -1,0 +1,163 @@
+html, body {
+  font-family: Arial;
+  margin: 0 auto;
+  scroll-behavior: smooth;
+  background-color: #222530;
+  background: linear-gradient(to bottom, #151621 0%, #222530 100%);
+  color: #e8e8e8;
+}
+
+nav {
+  overflow: hidden;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: linear-gradient(45deg, #508dff 0%, #50FFC0 100%);
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(60, 60, 60);
+  padding: 12px 22px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 3;
+  transition: color 0.1s;
+  -webkit-transition: color 0.1s;
+}
+
+nav a:hover {
+  color: black;
+}
+
+nav a img {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0 28px;
+}
+
+@media screen and (max-width: 600px) {
+  nav #navlink {
+    display: none;
+  }
+
+  nav a img {
+    padding: 6px 6px;
+  }
+}
+
+main {
+  width: 95%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section {
+  padding: 0.5% 5%;
+  margin-top: 5%;
+}
+
+section h2 {
+  font-size: 20px;
+}
+
+#intro {
+  padding: 6% 0;
+}
+
+#intro h1 {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  color: #b9e2ff;
+}
+
+#intro h2 {
+  font-size: 45px;
+  padding: 25px;
+  color: #b9e2ff;
+  text-align: center;
+}
+
+/*#about {}*/
+
+
+#project-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: center;
+  gap: 25px 15px;
+}
+
+#project {
+  border: 1px solid #CA71BC;
+  padding: 15px 25px;
+  border-radius: 6px;
+  flex-grow: 1;
+}
+
+#skills span {
+  border: 1px solid #CA71BC;
+  padding: 14px 20px;
+  border-radius: 6px;
+}
+
+
+
+#contactemail {
+  text-decoration: none;
+  color: #508dff;
+}
+
+#contactemail:hover {
+  text-decoration: underline;
+}
+
+form {
+  padding: 25px;
+  border-radius: 6px;
+}
+
+input, #message {
+  color: #e8e8e8;
+  font-size: 16px;
+  border: none;
+}
+
+#name, #email, #message {
+  width: 90%;
+  padding: 10px;
+  background-color: transparent;
+  margin-bottom: 10px;
+  line-height: 1.9;
+  border-bottom: 1px solid #e8e8e8;
+  transition: border-color .2s;
+}
+
+#submit {
+  background-color: #151621;
+  border-radius: 6px;
+  transition-duration: .2s;
+  padding: 14px 28px;
+}
+
+#submit:hover {
+  background-color: #508dff;
+  cursor: pointer;
+  transition-duration: .2s;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 0.5% 0;
+  margin-bottom: 0px;
+  margin-top: 6%;
+  color: #74c5ff;
+}
